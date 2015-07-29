@@ -1,6 +1,7 @@
 var a = 0;
    
 
+
 function getXMLHttp()
 {
   var xmlHttp
@@ -52,6 +53,28 @@ function MakeRequest()
   xmlHttp.open("GET", "newajax.php?fname=" + sdata, true); 
   xmlHttp.send(null);
 }
+
+
+function MakeRequestForCalendar()
+{
+  var xmlHttp = getXMLHttp();
+
+  xmlHttp.onreadystatechange = function()
+  {
+    if(xmlHttp.readyState == 4)
+    {
+      HandleResponse2(xmlHttp.responseText);
+    }
+  }
+
+  sdata=null;
+
+  xmlHttp.open("GET", "newajaxforcal.php?fname=" + sdata, true); 
+  xmlHttp.send(null);
+}
+
+
+
 
 
 // next button moves record count on by 10 rows and uses testsql.php
@@ -184,5 +207,11 @@ function getrowcount()
 function HandleResponse(response)
 {
   document.getElementById('ResponseDiv').innerHTML = response;
+}
+
+
+function HandleResponse2(response)
+{
+  document.getElementById('ResponseDivCal').innerHTML = response;
 }
 
