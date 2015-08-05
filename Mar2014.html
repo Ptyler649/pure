@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Northmount Developments Ltd for Consulting, Enterprise Architecture and Open Source Software.">
+
+    <title>northmount.org</title>
+
+    
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48910227-1', 'northmount.org');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript' src='newajax.js'></script>
+
+    
+
+</head>
+<body>
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">northmount.org</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="index.html" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="consult.html" class="pure-menu-link">Services</a></li>
+            <li class="pure-menu-item"><a href="blog.html" class="pure-menu-link">Latest</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+    <div class="content">
+        <div class="pure-g">
+
+            <h2 class="content-head is-center">Blog </h2>
+
+            
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    March 2014 News
+                </h3>
+
+
+                <p>
+                    <!--    loads blog text file 
+                    <script>window.MakeRequest();</script>
+                    <div id='ResponseDiv'>
+                    </div>              
+					-->
+     
+  <p>27/03/2014 - Been working hard on the day job and so not much time over the last week, however just managed to get the JSImongo alpha code up to git hub for the first time. Also posted this week some HOW TO notes on setting up an AWS Cloud web server that may help some of the community looking to do this for the first time. The HOW TOO's are off the home page. Looking to get sample code posted here that is more related to the myJarvis piece over the next week and this will post tweets up into mongoDB.</p>
+
+            <p>18/03/2014 - This week I have de-coupled both the day time element and the delay element from the code and added these to the jsiconfig.txt
+            file to allow for easy modification. Edit the 4th and 5th line of the config file to adjust accordingly. Essentially 900 here equates to
+            960 mins if the delay is written in as 60000ms (60 seconds) and would give a realtime trading day of 16hrs.  As this is a simulation you can move this write down do a 1ms delay that depending on network and cpu spped will give you the fastest results but will randomise the date time selection written in as per the JSON.  Keep in mind the number of days you have also configured here and if inserting to mongo the network speed will effect performance.</p>
+
+            <p>12/03/2014 - Fixed some issues with the website here, added the follow twitter button and the link to mongodb labs. </p>
+
+            <p>12/03/2014 - This week I have cleaned up the code a little and added a couple of functions. First I have added the dates and entities functionality, this allows the simulation of multiple dates simply by amending the dateslist.txt file. In addition the entities funcitonality gives simulations of products being sold across mutiple entities / shops / offices etc. I have also added the -i and -d commands when you execute jsimongo. -i disables the insertion into mongoDB to allow for testing. -d allows you to disable the display function to the console. Without these set the default will be to insert and display the transactions.</p>
+
+            <p>05/03/2014 - In terms of development, the top priorities for me at the moment is to improve settings functions and allow these to be entered external to the code. The next feature I would like to add is to be able to run the code across a number of days/time periods as currently this is restrictive although not impossible. A tidy up of the website is certainly due as well.</p>
+
+            <p>05/03/2014 - I have reviewed the website since applying the latest batch of changes and from putting the alpha version up
+            and for JSImongo and I have modified some of website text. My aim is to bring JSI up to a beta version over the next month or 
+            so but first I have setup a public facing GIT Repository - https://github.com/philnorthmount.  Also I have created a JSI specific twitter account Tweet - @PhilT74564531.  I am now in the process of setting up ANT as the code deployment tool and once I am happy with this process will continue with development.</p>
+
+            <p>04/03/2014 - JSImongo is now available as a pre-beta version to download on the downloads page.</p>
+
+            <p>04/03/2014 - Jango is now renamed as JSImongo - this stands for Java Simulated for Mongo for two reasons Jango is a name of a music provider and I do not want any to have to change the name later and after some though we think JSImongo is more descriptive name anyway for its purpose</p>
+
+
+
+
+
+
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Archives</h2>
+
+                <p>
+                    <!--    loads "blogcal" text file to give the calendar list -->
+                    <script>window.MakeRequestForCalendar();</script>
+
+                    <div id='ResponseDivCal'>
+                    </div>             
+
+                </p>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Find out more.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+ 						<a href="https://uk.linkedin.com/pub/philip-tyler/37/830/183">
+  							<img src="photo.jpg" width="372" height="352">
+						</a> 
+                       
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Connect</h4>
+                <p>
+                    Owner and Principle Consultant Philip Tyler, feel free to connect via Twitter, Email or LinkedIn as below.
+                </p>
+
+
+                <p>
+                <!-- Twitter Share Button -->
+                    <a class="btnz share twitter" href="https://twitter.com/PhilT74564531"><i class="fa fa-twitter"></i></a>
+
+                <!-- LinkedIn Share Button -->
+                    <a class="fbtn share linkedin" href="https://uk.linkedin.com/pub/philip-tyler/37/830/183"><i class="fa fa-linkedin"></i></a>
+ 
+                <!-- Buffer Share Button -->
+                    <a class="fbtne share buffer" href="mailto:phil@northmount.org"><i class="fa fa-share-square-o"></i></a>
+                </p>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        Proudly powered by Linux.
+    </div>
+
+
+
+</body>
+</html>
