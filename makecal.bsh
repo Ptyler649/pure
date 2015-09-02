@@ -1,0 +1,27 @@
+#!/bin/bash
+v1=$(date +%B | head -c3)
+v2=$(date +%Y)
+v3=$v1' '$v2
+echo $v3 > latest_cal.txt
+
+while read p; do
+ echo $p >> latest_cal.txt
+done <blogcal.txt
+
+mv latest_cal.txt blogcal.txt
+
+
+
+rm actblogcal.txt
+counter=1
+cnttest=1
+
+while read q; do
+ if [ $counter -gt $cnttest ]
+ then
+#	echo $counter
+	echo $q >> actblogcal.txt 
+ fi
+ let counter=counter+1
+done <blogcal.txt
+
