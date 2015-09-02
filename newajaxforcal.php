@@ -4,7 +4,7 @@ $fname=$_REQUEST["fname"];
 // input calendar text in order to loop through
 $dir = '/home/ubuntu/blog/';
 $text = 'some text here';
-$filename = 'blogcal.txt';
+$filename = 'actblogcal.txt';
 
 $file = fopen($dir . $filename, "a");
 fwrite($file, $fname . "\n");
