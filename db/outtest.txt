@@ -1,0 +1,679 @@
+31|Purchase Request Date|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+32|Purchase Request Date|0||PROD_CMI_34.CMI_DAILY_ORDERS|CAM
+33|Purchase Request Date|0||PROD_CUSTOMER_ACCOUNT.RETURNED_ITEM|CAM
+34|Purchase Request Date|0||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+35|Return Item Date|Date return item was logged at the returns centre||PROD_CUSTOMER_ACCOUNT.RETURNED_ITEM|CAM
+36|Start date|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2 |CAM
+37|Query start date|0||PROD_CONNECT.CONNECT_CAT_REQUEST_QUERY|0
+38|Statement production date|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+39|Deferred Option Weeks|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+40|Enquiry Id|0||PROD_ENQUIRY.ENQUIRY |APS
+41|First Customer Account Identification Flag|0||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+42|Full Price / Promotion / Clearance Identifier|Full Price / Promotion / Clearance||PROD_CMI_TABLES.CMI_DAILY_DEMAND|N/A (Zeus)
+43|Gross Demand pre credit units|The total quantity of customer orders that have been vetted and deemed credit un-worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+44|Gross Demand pre credit units|The total quantity of customer orders that have been vetted and deemed credit un-worthy and includes Aborted Demand.||PROD_CMI_34.CMI_DAILY_ORDERS|CAM
+45|All Mail order Utilisation (%) last 1 month (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+46|Internal router sequence|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+47|Latest scoring stage|0||PROD_ENQUIRY.ENQUIRY |APS
+48|Number of months 0 number of arrears last 24 months (all accounts)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+49|Worst status last 1 code (all accounts)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+50|Manual Adjustment Code|3 digit code for Manual Adjustment eg 320 = Sales GLIT||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+51|Net despatch|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+52|Web Session Start Page|Start Page number of the Web Session||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+53|Web Session End Page|End Page number of the Web Session||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+54|Page View Sequence Number|Page View Sequence Number||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE |SPEEDTRAP
+55|New Visit Counter|New Visit Counter||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE |SPEEDTRAP
+56|Outstanding balance amount|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+57|Outstanding BNPL balance amount|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+58|Over indebtedness score|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+59|Payement amount|0||PROD_CUSTOMER_ACCOUNT.CA_PAYMENT|CAM
+60|Principal Brand|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+61|Principal Brand|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+62|Principal Brand Web|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE |SPEEDTRAP
+63|Product Identifier|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+64|Product Identifier|0||PROD_CMI_TABLES.CMI_PRODUCT |Genesis (INTER)
+65|Product Offer Identifier|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+66|Purchase item number|Purchase Item No||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+67|Purchase item number|Purchase Item No||PROD_CONNECT.QUERY_BNPL_TERM_TRANS_ITEM|0
+68|Purchase mechanism|The payment terms of the sale e.g. 52 weeks||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+69|Purchase mechanism|The payment terms of the sale e.g. 52 weeks||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+70|Purchase No|Unique Purchase No. associated to the customer order. ||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+71|Purchase No|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+72|Purchase No|0||PROD_CMI_34.CMI_DAILY_ORDERS|CAM
+73|Purchase No|0||PROD_CONNECT.QUERY_BNPL_TERM_TRANS_ITEM|0
+74|Returned items amount|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+75|Risk Navigator Score|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+76|Risk Navigator Score|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+77|Risk Navigator Score|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+78|Router type code|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+79|Past schedule payment due date|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+80|Past schedule payments due date|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+81|Shadow category Id|0||PROD_PRODUCT.SH_CATEGORY|Genesis (INTER)
+82|Shadow category Id|0||PROD_PRODUCT.SH_PRODUCT_RANGE|Genesis (INTER)
+83|Product Department Description|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT |Genesis (INTER)
+84|Product Department Identifier|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+85|Product Department Identifier|0||PROD_PRODUCT.SH_CATEGORY|Genesis (INTER)
+86|Product Department Identifier|0||PROD_PRODUCT.SH_DEPARTMENT|Genesis (INTER)
+87|Product Range Identifier|0||PROD_PRODUCT.SH_PRODUCT_RANGE|Genesis (INTER)
+88|Product Range Identifier|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+89|Statement band|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2 |CAM
+90|Trading credit risk factor|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+91|Variable APR charge amount|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+92|Visit Start Date|Timestamp of Start time of page view||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+93|Visit Cookie Identifier|The 1st party persistent cookie ID associated with the client device||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+94|Web Session Identifier|An identifier used to contextualize all interactions made during the use of a client device.||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE |SPEEDTRAP
+95|Aborted demand @ actual selling price |This is a value at Actual Selling Price when a customer places an order (DC stock) the item is out of stock and then the same customer trys to order another item in the same day or up to two weeks later from the a different product range.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CONNECT
+96|Aborted demand @ direct actual selling price |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CONNECT
+97|Aborted Demand Units|This is the total quantity when a customer places an order (DC stock) the item is out of stock and then the same customer trys to order another item in the same day or up to two weeks later from the a different product range.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CONNECT
+98|Annual Percentage Rate|Annual % rate applied to interest bearing terms for a product offer.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+99|Annual Percentage Rate|Annual % rate applied to interest bearing terms for a product offer.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+100|Annual Percentage Rate|Annual % rate applied to interest bearing terms for a product offer.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+101|BNPL Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+102|BNPL Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+103|BNPL Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+104|BNPL lost interest amount|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+105|BNPL lost interest amount|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+106|BNPL lost interest amount|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+107|BNPL Promotion Reference No|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+108|BNPL Promotion Reference No|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+109|BNPL Promotion Reference No|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+113|Purchase mechanism|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+114|Purchase mechanism|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+115|Purchase mechanism|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+116|CAM Week No.|200936||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+117|CAM Week No.|200936||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+118|CAM Week No.|200936||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+119|CAM Year No.|2009||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+120|CAM Year No.|2009||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+121|CAM Year No.|2009||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+122|Carrier Code|Eg Royal Mail signed||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (GE9770e)
+127|Sales Transactation Type|Indicates whether the sale was interest bearing or interest free credit||PROD_CMI_TABLES.CMI_DAILY_RETURN|N/A (Zeus)
+128|Interaction Channel Id|Denotes the Channel the customer account instigated an interation with SD||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+129|Interaction Channel Id|Denotes the Channel the customer account instigated an interation with SD||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+130|Interaction Channel Id|Denotes the Channel the customer account instigated an interation with SD||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+131|Connect Customer Advisor Id|7digit Alpha / Numeric ID||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+132|Connect Customer Advisor Id|7digit Alpha / Numeric ID||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+133|Connect Customer Advisor Id|7digit Alpha / Numeric ID||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+134|Clerk Reference|Advisor ID||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+135|Clerk Reference|Advisor ID||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+136|Clerk Reference|Advisor ID||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+137|Closing Balance Amount|The sum in œ of the closing balance at the time of statementing includes all the movements charged on the statement.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+138|COGS Gross amount|The value at Standard Cost Price of physically despatched goods. Including cost price customer adjustments for Despatch and Despatch Glit items.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+139|COGS Gross Unadjusted amount|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+140|COGS Returned amount|The value at Standard Cost Price of customer returned goods||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+141|COGS Returned Unadjusted amount|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+144|Account Credit Limit|Amt in whole œ of the authorised credit limit of a Customer Account. Credit Limit is generally reviewed at statement time but a review can also be triggered by a CA attempting to exceed their limit or by specifically asking to have the limit increased.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+145|Account Credit Reject Reason Code|Stipulated reason code for when the customer does not pass our credit checks (includes account limit infringments).||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+146|Credit Rejects Actual Selling Price Amount|The value at Actual Selling Price of orders where the customer does not pass our credit checks includes account limit infringments.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+147|Credit Rejects Direct Selling Price Amount|The value at Direct Selling Price of orders where the customer does not pass our credit checks includes account limit infringments.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+148|Credit Reject Units|The total quantity of orders where the customer does not pass our credit checks includes account limit infringments.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+149|Account Credit Status Code|A code of the state of a Customer Account (in credit terms). It is used to decide whether orders should be stopped or handled with care :     B = with care (reject orders for manual check)  D = stop orders    other values are derived from first character but mostly recorded as unknown.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+150|Account Credit Status Sub Code|Used in conjunction with Credit Status Code , as a subset of credit status code.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+151|?|CAM determined status of the customer account.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+152|Date BNPL chargeable|Date on which a purchase request item using Buy Now Pay Later is available to be charged.  The presence of a date within this field indicates the customer selected the BNPL option during checkout.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+153|Date BNPL chargeable|Date on which a purchase request item using Buy Now Pay Later is available to be charged.  The presence of a date within this field indicates the customer selected the BNPL option during checkout.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+154|Date BNPL chargeable|Date on which a purchase request item using Buy Now Pay Later is available to be charged.  The presence of a date within this field indicates the customer selected the BNPL option during checkout.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+155|Despatch date|The date the original despatch was sent to the customer.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+156|Despatch date|The date the original despatch was sent to the customer.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+157|Purchase Request Date|The date on which the purchase request was created, denotes the date the customer made a purchase.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+158|Purchase Request Date|The date on which the purchase request was created, denotes the date the customer made a purchase.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+159|Item Returned Date|Date return item was logged at the returns centre||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+160|Deferred Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+161|Deferred Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+162|Deferred Interest Amount|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+163|Etrad Customer Code|Denotes whether the customer account is an agent or a direct customer ||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_1|CAM
+164|Full Price / Promotion / Clearance Identifier|Clearance = Sales on Outlet Flyers / Promo = Sales where markdown is greater than 5% of OSP / Full = markdown less than 5% of OSP||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|N/A (Zeus)
+165|Full Price / Promotion / Clearance Identifier|Clearance = Sales on Outlet Flyers / Promo = Sales where markdown is greater than 5% of OSP / Full = markdown less than 5% of OSP||PROD_CMI_TABLES.CMI_DAILY_RETURN|N/A (Zeus)
+166|Gender Code|Gender Code||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_3|CAM
+167|Currency Code|GBP / EUR / USD / AUD||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+168|Currency Code|GBP / EUR / USD / AUD||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+169|Currency Code|GBP / EUR / USD / AUD||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+170|Gross Demand post credit @ actual selling price |The value at Actual Selling Price of customer orders that have been vetted and deemed credit worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+171|Gross Demand post credit @ direct actual selling price |The value at Direct Actual Selling Price of customer orders that have been vetted and deemed credit worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+172|Gross Demand post credit VAT @ actual selling price |VAT on Gross Demand Post Credit ASP||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+173|Gross Demand post credit interest |Interest on Gross Demand Post Credit||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+174|Gross Demand post credit @ original selling price |The value at Original Selling Price of customer orders that have been vetted and deemed credit worthy and includes Aborted Demand. which is before any markdowns (Trading/New Starter/Marketing/Other/Value Offer/ Staff discount).||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+175|Gross Demand post credit @ original direct price |The value at Direct Original Selling Price of customer orders that have been vetted and deemed credit worthy and includes Aborted Demand. which is before any markdowns (Trading/New Starter/Marketing/Other/Value Offer/ Staff discount).||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+176|Gross Demand post credit VAT @ orginal selling price |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+177|Gross Demand post credit @ standard cost price|The value at Standard Cost Price of customer orders that have been vetted and deemed credit worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+178|Gross Demand post credit units|The total quantity of Gross Demand Post Credit Qty for offline orders||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+179|Gross Demand post credit VAT @ direct selling price |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+180|Gross Demand pre credit @ actual selling price |The value at Actual Selling Price of customer orders that have been vetted and deemed credit un-worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+181|Gross Demand pre credit @ direct selling price |The value at Direct Actual Selling Price of customer orders that have been vetted and deemed credit un-worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+182|Gross Demand pre credit VAT @ actual selling price |VAT on Gross Demand Pre Credit ASP||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+183|Gross Demand pre credit interest|Interest on Gross Demand Pre Credit||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+184|Gross Demand pre credit @ original selling price|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+185|Gross Demand pre credit @ original direct price |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+186|Gross Demand pre credit VAT @ orginal selling price  |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+187|Gross Demand pre credit @ standard cost price|The value at Standard Cost Price of customer orders that have been vetted and deemed credit un-worthy and includes Aborted Demand.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+188|Gross Demand pre credit VAT @ direct selling price  |0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+189|Gross Despatch markdown @ direct selling price |Gross Despatch OSP @DSP less Gross Despatch ASP @DSP||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+190|Gross Despatch @ Actual selling price |The value at Actual Selling Price of physically despatched goods including the following adjustments: Trading Markdown / Sales Glit / Warranty Replacement / Gross Despatch.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+191|Gross Despatch @ direct actual selling price |The value at Direct Actual Selling Price (Inc VAT) of physically despatched goods including the following adjustments: Markdowns + Adjustments (MIVS) inc Sales GlitWarranty Replacement||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+192|Gross Despatch @ unadjusted Actual selling price |0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+193|Gross Despatch excluding VAT|The value at Actual Selling Price of physically despatched goods including the following adjustments: Trading Markdown / Despatch Glit / Warranty Replacement / Gross Despatch and excluding VAT.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+194|Gross Despatch excl VAT @ direct selling price |The value at Direct Actual Selling Price (exc VAT) of physically despatched goods including the following adjustments: Markdowns + Adjustments (MIVS) inc Sales GlitWarranty Replacement||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+195|Gross Despatch markdown amount|The gross value of total markdowns: Trading and Marketing||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+196|Gross Despatch @ original selling price |The value at Original Selling Price of physically despatched goods which is before any markdowns (Trading / New Starter / Marketing / Other / Value Offer / Staff discount).||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+197|Gross Despatch @ direct original selling price|The value at Direct Original Selling Price (inc VAT) of physically despatched goods which is before any markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+198|Gross Despatch excl VAT @ direct original selling price |The value at Direct Original Selling Price (exc VAT) of physically despatched goods which is before any markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+199|Gross Despatch units|The total quantity of physically despatched goods including the following adjustments: Trading Markdown / Sales Glit / Warranty Replacement / Gross Despatch.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+200|Gross Marketing Markdown amount|The gross value of Marketing markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+201|Gross New starter Markdown amount|The gross value of New Starter markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+202|Gross Other markdown amount|The gross value of Password markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+203|Gross Staff discount markdown amount|The gross value of Staff Discount markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+204|Gross Trading markdown amount|The gross markdowns for: New Starter / Password / Staff Discount / Value Offer||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+205|Gross Value offer markdown amount|The gross value of Value Offer markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+206|General Sales Tax Indicator|General Sales Tax on Jersey Sales||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+207|General Sales Tax Indicator|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+208|General Sales Tax Indicator|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+209|Held order releases @ actual selling price|The value at Actual Selling Price of customers who have agreed for SDG to put their order on hold as we are temporarily out of stock and have now been despatched.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+210|Held order releases @ direct actual selling price |0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+211|Held order releases units|The total quantity of customers who have agreed for SDG to put their order on hold as we are temporarily out of stock and have now been despatched.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+212|Interest Amount|The value of the Interest at asp of the current customer held order file (not yet despatched).||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+213|Interest Amount|Interest on Gross Despatch ASP?||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+214|Interest Amount|Interest on Returns ASP||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+215|Unadjusted interest amount|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+216|?|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+217|Despatch Manual Adjustment Code|3 digit code for Manual Adjustment eg 320 = Sales GLIT||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+218|Return Manual Adjustment Code|3 digit code for Manual Adjustment eg 320 = Sales GLIT||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+219|Multi-Part Indicator|Yes / No||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+220|National Dialling Code|Customer telephone area code||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_3|CAM
+221|Offer type code|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+222|Offer type code|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+223|Offer type code|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+224|Open to Buy Amount|The sum in œ of the closing balance at the time of statementing includes all the movements charged on the statement.||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+225|Order brand|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+226|Order brand|Retail brand against which the customer has made the purchase & hence generated an order. ||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+227|Order brand|Retail brand against which the customer has made the purchase & hence generated an order. ||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+228|Order ID|Number of customer orders (Gross Demand Pre Credit level)||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+229|Order ID|Number of customer orders (Gross Demand Pre Credit level)||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+230|Order ID|Number of customer orders (Gross Demand Pre Credit level)||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+231|?|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+232|?|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+233|?|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+234|Outlet code|eg A001 - Container object which encapsulates pricing rules applicable to defined Product Offers.  Generally an Outlet is defined within the context of a Channel/Brand/Season (further granularity may include Product Range etc.)||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+235|Outlet code|eg A001 - Container object which encapsulates pricing rules applicable to defined Product Offers.  Generally an Outlet is defined within the context of a Channel/Brand/Season (further granularity may include Product Range etc.)||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+236|Outlet code|eg A001 - Container object which encapsulates pricing rules applicable to defined Product Offers.  Generally an Outlet is defined within the context of a Channel/Brand/Season (further granularity may include Product Range etc.)||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+237|Outlet group id|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+238|Outlet group id|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+239|Outlet group id|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+240|Outlet group indicator|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+241|Outlet group indicator|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+242|Outlet group indicator|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+243|Postcode|Postcode||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+244|Principal Brand|Code represeting the brand associated to the customer account.  For the purposes of the pilot only Very customer accounts will be supplied.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+245|Principal Brand|Code represeting the brand associated to the customer account.  For the purposes of the pilot only Very customer accounts will be supplied.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+246|Principal Brand|Code represeting the brand associated to the customer account.  For the purposes of the pilot only Very customer accounts will be supplied.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+254|Purchase item number|Unique Item No. associated to the Connect Order.  Represents the individual line associated to the order.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+255|Purchase item number|Unique Item No. associated to the Connect Order.  Represents the individual line associated to the order.||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+256|Purchase item number|Unique Item No. associated to the Connect Order.  Represents the individual line associated to the order.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+257|Purchase mechanism|The payment terms of the sale e.g. 52 weeks||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+258|Purchase mechanism|The payment terms of the sale e.g. 52 weeks||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+259|Purchase No|Unique Purchase No. associated to the customer order. ||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+260|Purchase No|Unique Purchase No. associated to the customer order. ||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+263|Returns @ Direct Actual selling price|The value at Actual Selling Price of customer returned goods including customer adjustments for Returns and Returns Glit||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+264|Returns exc VAT @Direct Actual selling price|The value at Actual Selling Price Ex VAT of customer returned goods including customer adjustments for Returns and Returns Glit||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+265|Returns Unadjusted @ actual selling price|The value at Actual Selling Price of customer returned goods before customer adjustments for Returns and Returns Glit||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+266|Returns Component Units|Total?quantity?of customer returns from despatches in your selected time period. Please note that that despatch date must be older than 14 days to give the returns time to mature.?||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+267|Returns ex VAT amount|The value at Actual Selling Price of customer returned goods before customer adjustments for Returns and Returns Glit||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+268|Returns Markdown amount|The returns value of total markdowns: Trading and Marketing||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+269|Returns Markdown amount @ Direct Selling Price|The returns value (direct selling price) of total markdowns: Trading and Marketing||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+270|Returns Marketing markdown amount|The returns value of total markdowns: Trading and Marketing||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+271|Returns New starter markdown amount|The returns value of New Starter markdowns||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+272|Returns @ Original selling price|The value at Original Selling Price of returned goods which is before any markdowns (Trading / New Starter / Marketing / Other / Value Offer / Staff discount).||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+273|Returns @ Original direct selling price |The value at Original Selling Price of returned goods which is before any markdowns (Trading / New Starter / Marketing / Other / Value Offer / Staff discount).||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+274|Returns excl VAT @ Original selling price |The value at Original Selling Price ex VAT of returned goods which is before any markdowns (Trading / New Starter / Marketing / Other / Value Offer / Staff discount).||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+275|Returns excl VAT @ Direct Original selling price|The value at Original Selling Price ex VAT of returned goods which is before any markdowns (Trading / New Starter / Marketing / Other / Value Offer / Staff discount).||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+276|Returns Other markdown amount|The returns value of Password markdowns||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+277|Returns Staff discount markdown amount|The returns value of Staff Discount markdowns||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+278|Returns Trading markdown amount|The returns markdowns for: New Starter / Password / Staff Discount / Value Offer||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+279|Returns Units|The total quantity of customer returned goods including customer adjustments for Returns and Returns Glit||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+280|Returns Value offer markdown amount|The returns value of Value Offer markdowns||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+281|Return reason code|Reason for Return eg Too small||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+282|Return reason connect|Reason for return from Connect||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+283|Return reason connect code|Denotes the customer specified reason for returning the product back to SD.||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+284|Retail Service Level 2 @ Actual Selling Price|The value at Actual Selling Price of products that can be despatched at some point.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+285|Retail Service Level 2 Units|The total quantity of products that can be despatched at some point.||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+286|Sales Tax Percentage|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+287|Sales Tax Percentage|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+288|Sales Tax Percentage|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+289|Service Level 1 @ Actual Selling Price|The value at Actual Selling Price of products that can be despatched straight away||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+290|Service Level 1 @ Direct Actual Selling Price|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+291|Service Level 1 Units|The value at Actual Selling Price of products that can be despatched straight away||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+292|Standard cost amount|Standard Cost Price||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+293|Time Id|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|N/A (Zeus)
+294|Title|Title of the individual associated to the customer account||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+295|Trading credit risk factor|This can be seen as the probability of a Customer Account going to DRD. The value assigned to a CA is derived through the use of scorecards and used during Credit Order Vetting and Credit Limit reviews. ||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_3|CAM
+296|Transaction type Id|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+297|Transaction type Id|Despatch / Adjustment etc||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+298|Unmatched return flag|Matched / Unmatched||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+299|Value offer invalid reason code|?||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+300|Value offer invalid reason code|?||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+301|Value offer invalid reason code|?||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+302|Value offer promotion reference number|0||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+303|Value offer promotion reference number|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+304|Value offer promotion reference number|0||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+305|VAT Amount|The VAT of customer adjustments||PROD_CMI_TABLES.CMI_DAILY_DEMAND|CAM
+306|VAT Gross @ Actual Selling price|VAT on Gross Despatches ASP||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+307|VAT Gross @ Direct actual selling price |VAT on Gross Despatches ASP @DSP||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+308|VAT Gross unadjusted @ actual selling price |VAT on Gross Despatches based upon the Actual Selling Price of the order value pre adjustments||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+309|VAT Gross Markdown |VAT value of total markdowns: Trading and Marketing||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+310|VAT Gross Markdown @ direct selling price |VAT @DSP on Gross Despatch Markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+311|VAT Gross Marketing markdown amount|VAT Gross Despatch Marketing Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+312|VAT New starter markdown amount|VAT Gross Despatch New Starter Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+313|VAT Gross @ Original selling price |The value at Direct Original Selling Price (exc VAT) of physically despatched goods which is before any markdowns||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+314|VAT Gross @ Direct Original selling price |VAT on Gross Despatches OSP @DSP||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+315|VAT Gross Other markdown amount|VAT Gross Despatch Other Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+316|VAT Gross Staff discount markdown amount|VAT Gross Despatch Staff Disc Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+317|VAT Gross Trading markdown amount|VAT Gross Despatch Trading Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+318|VAT Gross Value offer markdown amount|VAT Gross Despatch Value Offer Mdwn Amt||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+319|VAT Returns Marketing markdown amount|VAT Returns Marketing Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+320|VAT Returns New starter markdown amount|VAT Returns Marketing Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+321|VAT Returns Other markdown amount|VAT Returns Other Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+322|VAT Returns Staff discount markdown amount|VAT Returns Staff Disc Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+323|VAT Returns Trading markdown amount|VAT Returns Trading Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+324|VAT Returns Value offer markdown amount|VAT Returns Value Offer Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+325|VAT Returns @ Actual Selling price |VAT Returns ASP||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+326|VAT Returns @ Direct actual selling price |VAT Returns ASP @DSP||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+327|VAT Returns unadjusted @ Actual selling price |VAT on Returns based upon the Actual Selling Price of the order value before any adjustments||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+328|VAT Returns Markdown amount|VAT Returns Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+329|VAT Return Markdown @ direct selling price |VAT @DSP on Returns Markdowns||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+330|VAT Returns @ Original selling price |VAT Returns ASP + VAT Returns Marketing Markdown Amt + VAT Returns Trading Markdown Amt||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+331|VAT Returns @ Direct Orginal selling price |VAT Returns OSP @DSP||PROD_CMI_TABLES.CMI_DAILY_RETURN|CAM
+332|Warehouse Code|0||PROD_CMI_TABLES.CMI_DAILY_DESPATCH|CAM
+333|Line attribute Id|Product Line Code concatenated with Season code.||PROD_CMI_TABLES.CMI_PRODUCT|0
+334|Product Line Description|Description of Product Line||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (GE9770e)
+335|Product Line No|Cat No of Product||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (GE9770e)
+336|Navigation colour|? may relate to navigation colour associated to product when selected on website.  Need confirmation||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+337|Navigation size|? may relate to navigation size associated to product when selected on website.  Need confirmation||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+338|Product Option Description|Option Description||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+339|PIM parent colour description|? References PIM (Product Master System) valueset - the valueset contains all selectable values associated to the valueset||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+340|PIM parent colour Id|? References PIM (Product Master System) Colour Id selected from the associated Valueset||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+341|Season Code|0||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+342|Product Category Description|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+343|Shadow category Id|0||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+344|Product Colour Description|Description of the Product Colour||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+345|Product Colour Id|Identifier of the Product Colour||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+346|Product Department Id|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+347|Product Division Description|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+348|Product Division Id|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+349|Product Brand Description|0||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+350|Product Range Description|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+351|Product Range Id|0||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+352|Product Type Description|Gents / Ladies||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+353|Product Alternative Category Description|Part of Trading Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+354|Product Alternative Category Id|Identifier of the Product Category within the Alternate Product Hierarchy||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+355|Product Alternative Dept Description|Part of Trading Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+356|Product Alternative Dept Id|Identifier of the Product Department within the Alternate Product Hierarchy||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+357|Product Size Description|Description of the Product Size||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+358|Product Colour Id|Identifier of the Product Colour||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+359|Supplier Id|A002||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+360|Warehouse Code|0||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+361|Strength Indicator|Strength of customer identification, showing whether is based on identification event within session or inferred from prior/post events||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+362|Order Match Type|Flag to show how order was identified, either via order_id capture or customer/page matching based on order timestamp||PROD_SPEEDTRAP_SUMM.STLG_MATCHED_ORDERS|SPEEDTRAP
+363|Domain Page View Sequence No.|Page View Sequence Number at Domain level for each session. i.e. if session includes both Littlewoods & Very domains, each will have a value of 1 for the first page viewed per domain||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+364|Entry Page Flag|1 indicate first page of visit||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+365|Exit Page Flag|1 indicates exit page of visit||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+366|New Page View Sequence No|Restated Page View Sequence Number to remove duplicate errors. ||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+367|Page Hierarchy|High level view of the type of page / zone for the page view event. Numeric value with translation held within dimension table||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+368|Original Page View Sequence No|Original Pave View Sequence no. if the visitor start surfing again on the same website||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+369|Page View Start Date|Start time of the Page||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+370|Page View Start Timestamp|Timestamp for the page load event||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+373|URL Page Title Id|FK to reference table||PROD_SPEEDTRAP_SUMM.STLG_JOURNEY|SPEEDTRAP
+375|Campaign Flag|Flag denoting that the Product Page view was as a result of an SDG initiated campaign||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+376|Cross Sell Type|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+377|Display|?||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+378|In Stock Flag|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+379|Navigation Source|How the visitor reached the product page||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+380|Navigation Type|?||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+381|Out of Stock Flag|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+382|Parent Product Id|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+383|Product View Date|Date of when page was viewed||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+384|Product View Timestamp|Timestamp of when page was viewed||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+385|Promotion Id|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+386|New Page View Sequence number of prior page on brand |0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+387|Original Page View Sequence number of prior page on brand |0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+388|Referring Page Hierarchy|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+389|Search type|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+390|Sort Filter|Sort filter applied||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+391|Stock Message Displayed Indicator|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+392|Product Event Date|Date of the event||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_EVENTS |SPEEDTRAP
+393|Product Event Timestamp|Timestamp of the event||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_EVENTS |SPEEDTRAP
+394|Product Event Id|User event - need to get further information from SME, as to how these events are determined during the user's web-site interaction||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_EVENTS |SPEEDTRAP
+399|Web Session Id|An identifier used to contextualize all interactions made during the use of a client device. For example, in the context of a Web Browser, this is typically the same as the browser's own view of a session.||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+400|eCommerce Portal|ecommerce portal (web site)||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+401|Affiliate Id|FK to reference table||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+402|Affiliate Source Id|FK to reference table||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+403|Campaign Name|Name of the associated campaign||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+404|Campaign Type Code|Classification type of the associated campaign||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+405|Campaign Id|FK to reference table||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+406|Marketing Channel Id|Marketing Channel lookup value||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+407|MMC 1 Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+408|MMC 2 Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+409|MMC 3 Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+410|MMC 4 Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+411|New Entry Page No|First page number of visit||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+412|Original Entry Page No|Represents the page number within the context of the session||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+413|Original Visit Number Count|Visit number within the session starting at 1 for the first visit. A new visit starts when the user enters or re-enters the site from an external location ||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+414|Pay Per Click Keyword Id|Pay Per Click Keyword Id||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+415|Principal Brand Web|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+416|Referring Site Id|The external website that the visitor has clicked a link on to arrive at the SDG site||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+417|Search Term Id|Search Term lookup value||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+418|Site Version|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+419|New Visit Number Count|Restated visit number to include changes in domain not captured as separate visits by Speed-Trap config||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+420|URL Base Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+421|URL Query Id|0||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+422|Visit Start Date|Start date of visit||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+423|Visit Start Timestamp|Timestamp of visit||PROD_SPEEDTRAP_SUMM.STLG_VISIT_SUMMARY|SPEEDTRAP
+425|Browser Version |Version of Browser||PROD_SPEEDTRAP_SUMM.STLG_TECHNICAL_SUMMARY|SPEEDTRAP
+426|Browser Height|Height of browser window in Pixels||PROD_SPEEDTRAP_SUMM.STLG_TECHNICAL_SUMMARY|SPEEDTRAP
+427|Browser Id|FK to reference table||PROD_SPEEDTRAP_SUMM.STLG_TECHNICAL_SUMMARY|SPEEDTRAP
+429|Browser Width|Width of browser window in pixels||PROD_SPEEDTRAP_SUMM.STLG_TECHNICAL_SUMMARY|SPEEDTRAP
+432|Online device type|0||PROD_SPEEDTRAP_SUMM.STLG_TECHNICAL_SUMMARY|SPEEDTRAP
+435|Page View Sequence No.|Represents the page number within the context of the session (Web_Session_Id), for the identification. Together with the Web_Session_Id, these two attributes can be used to link to other tables which have the attributes Web_Session_Id and Page_View_Sequence_Num.||PROD_SPEEDTRAP.VISITOR_IDENTIFICATION|SPEEDTRAP
+439|?|0||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+440|Account Year Week|200901 - 200952||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+441|Address Id|Address Id||PROD_PERSON.ADDRESS_PERSON_XREF|0
+442|Address Id|Address Id||PROD_PERSON.POSTAL_ADDRESS|Trillium (N&A matching)
+443|Address Line 1|Address Line 1||PROD_PERSON.POSTAL_ADDRESS| Various
+444|APR Current|?||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+445|BNPL Indicator|Indicator as to whether Buy Now Pay Later drop date was used for a merchandise order (Order level) Yes / No||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+446|BNPL Promotion Description|0||PROD_REFERENCE.BNPL_PROMOTION_REF|0
+447|BNPL Promotion Reference No|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+448|Calendar Date|0||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+449|CAM Day No.|0>6||PROD_REFERENCE.CMI_CALENDAR|N/A (Zeus)
+450|CAM Week No.|200936||PROD_REFERENCE.CMI_CALENDAR|N/A (Zeus)
+451|CAM Year No.|2009||PROD_REFERENCE.CMI_CALENDAR|N/A (Zeus)
+452|Charge Amount|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_CHARGE|CAM
+453|Charge Month|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+454|BNPL Promotion Reference Record Creation Timestamp|0||PROD_REFERENCE.BNPL_PROMOTION_REF|0
+455|Credit Action Type Code|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_CHARGE|CAM
+456|Control indicator|0||PROD_IOS_CONT_RESP.CA_CONTACT_HISTORY|0
+457|Date BNPL chargeable|?||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+458|Supression Date Effective From|?||PROD_CUSTOMER_ACCOUNT.CA_SUPPRESSION|CAM
+459|BNPL Promotion Date Effective From|0||PROD_REFERENCE.BNPL_PROMOTION_REF|0
+460|Supression Date Effective To|?||PROD_CUSTOMER_ACCOUNT.CA_SUPPRESSION|CAM
+461|BNPL Promotion Date Effective To|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+462|BNPL Promotion End Date|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+463|Incentive Scheme Claim Date|0||PROD_CUSTOMER_ACCOUNT.CA_INCENTIVE_SCHEME_CLAIM_ITEM|CAM
+464|Warranty Policy Purchased Date|Time of the original warranty purchase. Based on Policy Purchase Date.||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+465|Purchase Request Date|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_CHARGE|CAM
+466|Date query actioned|0||PROD_CUSTOMER_ACCOUNT.CA_QUERY_ACTION|CAM
+467|Warranty Renewal Cancelled Date|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY_RENEWAL|Streamline
+468|BNPL Promotion Start Date|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+469|Voucher Revoked Date|0||PROD_CUSTOMER_ACCOUNT.VOUCHER_CLAIM|CAM
+470|Warranty Transaction Date|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY_RENEWAL|Streamline
+471|BNPL Deferred Interest Indicator|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+472|BNPL Deferred Option Indicator|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+473|Email Address|E-Mail Address||PROD_PERSON.EMAIL_PROTOCOL|UNICA
+474|Email Id|?||PROD_PERSON.CA_EMAIL_HISTORY|UNICA
+475|Email Id|?||PROD_PERSON.EMAIL_PROTOCOL|APS
+476|Adjustment Extract Record Type|0||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+477|Financial Year|Daily - Financial Year||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+478|Financial Week|Daily - Financial Week||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+479|Incentive Scheme Charge Amount|0||PROD_CUSTOMER_ACCOUNT.CA_INCENTIVE_SCHEME_CLAIM_ITEM|CAM
+480|Warranty Underwriter Cost Price|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+481|Incentive Scheme Claim Code|0||PROD_CUSTOMER_ACCOUNT.CA_INCENTIVE_SCHEME_CLAIM_ITEM|CAM
+482|Mail Id|Mail Id||PROD_IOS_CONT_RESP.CA_CONTACT_HISTORY|0
+483|MIV Type|0||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+484|Outstanding Balance Amount|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+485|Payment Sub Type|0||PROD_CUSTOMER_ACCOUNT.CA_PAYMENT|CAM
+486|Person Id|0||PROD_PERSON.ADDRESS_PERSON_XREF|N/A (Zeus)
+487|Person Id|0||PROD_PERSON.CA_PERSON_XREF|N/A (Zeus)
+488|Principal Brand|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+489|Purchase item number|Purchase Item No||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+490|Purchase item number|Purchase Item No||PROD_CUSTOMER_ACCOUNT.VOUCHER_CLAIM|CAM
+491|Purchase No|Unique Purchase No. associated to the customer order. ||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+492|Purchase No|Unique Purchase No. associated to the customer order. ||PROD_CUSTOMER_ACCOUNT.VOUCHER_CLAIM|CAM
+493|Renewal Accepted Cost Price|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY_RENEWAL|Streamline
+494|Renewal Accepted Value|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY_RENEWAL|Streamline
+495|Renewal Cancellation Value|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY_RENEWAL|Streamline
+496|Season|Financial Reporting Season||PROD_REFERENCE.CALENDAR|N/A (Zeus)
+497|Selection Indicator|0||PROD_IOS_CONT_RESP.CA_CONTACT_HISTORY|UNICA
+498|Selection Date|0||PROD_IOS_CONT_RESP.CA_CONTACT_HISTORY|UNICA
+499|Division Id|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_DIVISION|Genesis (INTER)
+500|Voucher Amount|0||PROD_CUSTOMER_ACCOUNT.VOUCHER_CLAIM|CAM
+501|Warranty Units|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+502|Warranty Calculation Value|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+503|Warranty Cancellation Date|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+504|Warranty Insurance Product Type Code|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+505|Weighted Value|0||PROD_CMI_TABLES.CMI_DAILY_WARRANTY|Streamline
+506|BNPL Year Plus|0||PROD_REFERENCE.BNPL_PROMOTION_REF|CAM
+507|UNICA Campaign Id|0||PROD_CRM_REFERENCE.SCR_CAMPAIGN|UNICA
+508|UNICA Campaign Name|0||PROD_CRM_REFERENCE.SCR_CAMPAIGN|UNICA
+509|UNICA Campaign Id|0||PROD_CRM_REFERENCE.SCR_TARGET_CELL|UNICA
+510|Cell Code|0||PROD_CRM_REFERENCE.SCR_TARGET_CELL|UNICA
+511|Account Year Period|201401||PROD_REFERENCE.CMI_CALENDAR|N/A (Zeus)
+512|Account Year Period|201401||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+513|BNPL Interest Amount|?||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+514|All Credit cards Balance last 1 month (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+515|All Credit cards Number of accounts (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+516|All Credit cards Utilisation (%) last 6 months (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+517|All Credit cards Utilisation (%) last 12 months (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+518|Purchase mechanism|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+519|Sales Transactation Type|Indicates whether the sale was interest bearing or interest free credit||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|N/A (Zeus)
+522|Time since most recent CCJ last 6 years (satisfied, unsatisfied and bankruptcy)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+523|Credit Status Effective From Date|?||PROD_CUSTOMER_ACCOUNT.CA_CREDIT_STATUS_HISTORY|CAM
+524|Credit Status Effective To Date|?||PROD_CUSTOMER_ACCOUNT.CA_CREDIT_STATUS_HISTORY|CAM
+525|Deferred Interest Amount|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+526|Despatched Indicator|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+527|Discounted Order Amount|0||PROD_CUSTOMER_ACCOUNT.CA_FIRST_PURCHASE_REQUEST|CAM
+528|All Storecards Utilisation (%) last 1 month (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+529|All Storecards Utilisation (%) last 6 months (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+530|All Storecards Utilisation (%) last 12 months (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+531|?|0||PROD_ENQUIRY.ENQUIRY|APS
+532|Fixed term accounts Mortgages and Secured Loans Worst status last 1 month (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+533|Fixed term accounts Mortgages and Secured Loans Worst status last 3 months before settled (settled)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+534|?|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_3|CAM
+535|Interest Amount|The value of the Interest at asp of the current customer held order file (not yet despatched).||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+536|Product Line No|Cat No of Product||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+537|Total number of accounts (settled)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+538|Number of accounts currently in default (all accounts)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+539|Total number of accounts (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+540|Age of oldest account (live)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+541|Number of months since status 2+ (all accounts)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+542|Worst status last 3 codes (all accounts)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+543|Number of unsecured loan accounts|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+544|Number of secured loan/mortgage accounts|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+545|?|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_3|CAM
+546|Page Id|String based description of a particular web page.||PROD_SPEEDTRAP_SUMM.STLG_URL_PAGE_ID|SPEEDTRAP
+547|Past payment amount due|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+548|Scheduled Payment Amount|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+549|ATG Product Id|0||PROD_SPEEDTRAP_SUMM.STLG_PRODUCT_PAGE|SPEEDTRAP
+550|Search Term|The search term used to reach the site||PROD_SPEEDTRAP_SUMM.STLG_SEARCH_TERM|SPEEDTRAP
+551|Search Term Id|Search Term Id||PROD_SPEEDTRAP_SUMM.STLG_SEARCH_TERM|SPEEDTRAP
+552|Product Division Id|Part of Product Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT_DIMENSION|Genesis (INTER)
+553|Littlewoods Alternate Categroy Description|Part of Trading Hierarchy structure ||PROD_CMI_TABLES.CMI_PRODUCT_DIMENSION|Genesis (INTER)
+554|Product Range Id|0||PROD_CMI_TABLES.CMI_PRODUCT_DIMENSION|Genesis (INTER)
+555|Product Range Id|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+556|Number of credit searches last 3 months|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+557|Number of credit searches last 12 months|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+558|URL Page Id|URL Page Id||PROD_SPEEDTRAP_SUMM.STLG_URL_PAGE_ID|SPEEDTRAP
+559|Percentage of houses with default/w.o (all)|0||PROD_CUSTOMER_ACCOUNT.CA_QCB|EQUIFAX
+560|Address Line 1|Address Line 1||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+561|Address Line 2|Address Line 2||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+562|Address Line 3|Address Line 3||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+563|Address Line 4|Address Line 4||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+564|Channel Id|?||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+565|?|0||PROD_ENQUIRY.ENQUIRY_CAPTURED_DATA_PIECE|APS
+566|Date of Birth|Date of Birth||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+567|Enquiry Id|0||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+568|Forename|0||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+569|Form Event End Date Time|Attempt stop timestamp (at the point the user submit the form or their last field interaction if they abandon and don't submit)||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+570|Form Event Id|A (zero based) index identifying the form events seen within the given session. Hence the higher the index, the later during the session the form event occurred. ||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+571|Form Field Event Id|?||PROD_SPEEDTRAP.FORMS_FIELD_EVENT|SPEEDTRAP
+572|Form Event Start Date Time|Attempt start timestamp||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+573|Form Field Event Field Val|Value of the field at the point of submittal, or exit of the page.||PROD_SPEEDTRAP.FORMS_FIELD_EVENT|SPEEDTRAP
+574|Form Field Event Start Date Time|Attempt start timestamp||PROD_SPEEDTRAP.FORMS_FIELD_EVENT|SPEEDTRAP
+575|Form Field Id|A unique, auto-generated surrogate key.||PROD_SPEEDTRAP.FORMS_FIELD |SPEEDTRAP
+576|Form Field Event Id|Form Field Event Id||PROD_SPEEDTRAP.FORMS_FIELD_EVENT|SPEEDTRAP
+577|Form Field Name|The HTML name of the form field name or ID||PROD_SPEEDTRAP.FORMS_FIELD |SPEEDTRAP
+578|Form Id|A unique, auto-generated surrogate key based upon Forms_Name||PROD_SPEEDTRAP.FORMS |SPEEDTRAP
+579|Form Id|?||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+582|House Name|House Name||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+583|House No|House No||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+584|Initial Brand|0||PROD_ENQUIRY.ENQUIRY|APS
+585|Page View Sequence No.|Represents the page number within the context of the session (Web_Session_Id). ||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+586|Page View Start Date Time|Page View Start Date Time||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+587|Postcode|Postcode||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+588|Recruitment Credit Band|0||PROD_ENQUIRY.ENQUIRY|APS
+589|Scoring Stage|0||PROD_ENQUIRY.ENQUIRY_CAPTURED_DATA_PIECE|APS
+590|Enquiry Scoring Stage|0||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+591|Start Page View Sequence No|Represents the page number within the context of the session (Web_Session_Id), for the start of the current sequence.||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+592|Surname|0||PROD_ENQUIRY.ENQUIRY_STAGE|APS
+593|Visitor Identification Date Time|The timestamp of when the visitor was identified||PROD_SPEEDTRAP.VISITOR_IDENTIFICATION|SPEEDTRAP
+594|Web Session Id|An identifier used to contextualize all interactions made during the use of a client device. For example, in the context of a Web Browser, this is typically the same as the browser's own view of a session||PROD_SPEEDTRAP.FORMS_EVENT|SPEEDTRAP
+595|Web Session Id|An identifier used to contextualize all interactions made during the use of a client device. For example, in the context of a Web Browser, this is typically the same as the browser's own view of a session.||PROD_SPEEDTRAP.FORMS_FIELD_EVENT|SPEEDTRAP
+596|Web Session Id|An identifier used to contextualize all interactions made during the use of a client device. For example, in the context of a Web Browser, this is typically the same as the browser's own view of a session.||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+597|First Customer Account Identification Flag|The 1st party persistent cookie ID associated with the client device||PROD_SPEEDTRAP_SUMM.STLG_CUSTOMER_ATTRIBUTION|SPEEDTRAP
+598|Open to Buy Amount|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+599|Product Option No|Option No of Product||PROD_CMI_TABLES.CMI_PRODUCT|Genesis (INTER)
+600|Past schedule payments due date|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+602|Catalogue Mid Season Score|Uses historical transactional data (RFM type data) to classify the customer in terms of order frequency/monetary spend etc.  With the higher the value the greater the value apportioned to the customer.||PROD_PROMOTIONS.CA_SCORE_ALL|N/A (Zeus)
+603|Customer Acorn Classification|Customer financial demographic at start of season - Highest Level (Seasonal)||PROD_PROMOTIONS.CA_SCORE_ALL|N/A (Zeus)
+604|Shadow credit limit|0||PROD_SUMMARY.CA_RFM_SUMMARY|CAM
+605|Suppression Type|0||PROD_CUSTOMER_ACCOUNT.CA_SUPPRESSION|N/A (Zeus)
+606|Page URL|String based description of a particular web page. This is Page URL||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+607|Endeca Category Id|0||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+608|ATG Category Id|0||PROD_SPEEDTRAP.URL_INFO|SPEEDTRAP
+609|Adjustment Charged Date|0||PROD_CUSTOMER_ACCOUNT.CA_ADJUSTMENT|CAM
+610|Customer Account Credit Status Sub Code|0||PROD_CUSTOMER_ACCOUNT.CA_CREDIT_STATUS_HISTORY|CAM
+611|SD Customer Account Id|0||PROD_CUSTOMER_ACCOUNT.CA_SD_TO_TOE_XREF|CAM
+612|Payment Due Date|0||PROD_CUSTOMER_ACCOUNT.CA_STATEMENT|CAM
+613|Customer Account Type Code|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_1|CAM
+614|DRD Date|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+615|DRD Restart Date|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+616|Last Payment Date|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+617|?|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+618|Outstanding Balance Terms 100 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+619|Outstanding Balance Terms 104 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+620|Outstanding Balance Terms 150 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+621|Outstanding Balance Terms 156 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+622|Outstanding Balance Terms 208 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+623|Outstanding Balance Terms 260 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+624|Outstanding Balance Terms 38 Weeks|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+625|Outstanding balance amount|0||PROD_CUSTOMER_ACCOUNT.CUSTOMER_ACCOUNT_2|CAM
+626|Despatch date|The date the original despatch was sent to the customer.||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+627|Discounted Order Item Amount|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+628|?|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+629|?|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+630|?|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+631|?|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+632|?|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+633|Client Code|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+634|Debt Type Code|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+635|Last Amended Date|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+636|Last Amended Time|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT|Debt Manager
+637|Class Date|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT_STATUS_HIST|Debt Manager
+638|Last Amended Date|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT_STATUS_HIST|Debt Manager
+639|Last Amended Time|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT_STATUS_HIST|Debt Manager
+640|Status Class|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT_STATUS_HIST|Debt Manager
+641|Status Code|0||PROD_DEBT_MAN.CA_COLLECT_ACCOUNT_STATUS_HIST|Debt Manager
+642|Category Code|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_REF|Debt Manager
+643|?|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_REF|Debt Manager
+644|Last Amended Date|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_REF|Debt Manager
+645|Last Amended Time|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_REF|Debt Manager
+646|Category Code|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_TEXT|Debt Manager
+647|?|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_TEXT|Debt Manager
+648|Last Amended Date|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_TEXT|Debt Manager
+649|Last Amended Time|0||PROD_DEBT_MAN.CA_COLLECT_EXTRA_DETAIL_TEXT|Debt Manager
+650|Document Date|0||PROD_DEBT_MAN.CA_COLLECT_LETTER|Debt Manager
+651|Document Time|0||PROD_DEBT_MAN.CA_COLLECT_LETTER|Debt Manager
+652|Total Campaign Costs|0||n/a|Excel
+653|Total Campaign Cost per Unit|0||n/a|Excel
+654|PAGE_ID|0||n/a|ATG - Old
+655|PRODUCTURL|0||n/a|ATG - Old
+656|TAXONOMYID|0||n/a|ATG - Old
+657|CATEGORY|0||n/a|ATG - Old
+658|MAINIMAGE|0||n/a|ATG - Old
+659|IMAGEURL|0||n/a|ATG - Old
+660|NOWFROM|0||n/a|ATG - Old
+661|WASFROM|0||n/a|ATG - Old
+662|SAVEPRICE|0||n/a|ATG - Old
+663|SAVEUPTOPRICE|0||n/a|ATG - Old
+664|NOWTO|0||n/a|ATG - Old
+665|WASTO|0||n/a|ATG - Old
+666|SHORTDESCRIPTION|0||n/a|ATG - Old
+667|LONGDESCRIPTION|0||n/a|ATG - Old
+668|BRAND_TXT|0||n/a|ATG - Old
+669|MAN_AGE|0||n/a|ATG - Old
+670|MAN_BY_AGE|0||n/a|ATG - Old
+671|MAN_DISPLAY_SIZE|0||n/a|ATG - Old
+672|MAN_HARD_DRIVE_STORAGE|0||n/a|ATG - Old
+673|MAN_INTEL_PROCESSOR_TYPE|0||n/a|ATG - Old
+674|MAN_RAM_MEMORY|0||n/a|ATG - Old
+675|MAN_MATERIAL|0||n/a|ATG - Old
+676|SDGCATALOGUENUMBER|0||n/a|ATG - Old
+677|SKUID|0||n/a|ATG - Old
+678|VARIATIONURL|0||n/a|ATG - Old
+679|LISTPRICE|0||n/a|ATG - Old
+680|STDDELIVERYCHARGE|0||n/a|ATG - Old
+681|DELIVERPROMISEMESSAGE|0||n/a|ATG - Old
+682|PACKED_WIDTH|0||n/a|ATG - Old
+683|PACKED_LENGTH|0||n/a|ATG - Old
+684|PACKED_WEIGHT|0||n/a|ATG - Old
+685|EUROPEAN_ARTICLE_NUMBER|0||n/a|ATG - Old
+686|MANUFACTURER_PART_NUMBER|0||n/a|ATG - Old
+687|ORIGPRICE|0||n/a|ATG - Old
+688|NAME|0||n/a|ATG - Old
+689|VALUE|0||n/a|ATG - Old
+690|Supplier Contributions Percentage|Supplier Contributions % COGS Net desp ex vat||Excel|Finance
+691|Royalty's Percentage|Royalty's % Net desp ASP ex vat||Excel|Finance
+692|Warehousing Out Rate|Warehousing Out Rate per Gross Unit||Excel|Finance
+693|Warehousing Returns Rate|Warehousing Rets Rate per Returned Unit||Excel|Finance
+694|Outbound Carriage Rate|Outbound Carriage Rate per Gross Unit||Excel|Finance
+695|Inbound Carriage Rate|Inbound Carriage Rate per Returned Unit||Excel|Finance
+696|GLIT Per Gross Unit|GLIT per Gross Unit||Excel|Finance
+697|Product Offer Id|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+698|Latest CVD Processed Date|0||PROD_CUSTOMER_ACCOUNT.PURCHASE_REQUEST_ITEM|CAM
+699|Merchandise Item Cat No|0||PROD_REFERENCE.WARRANTY_PRODUCT_TO_INSURANCE|Streamline
+700|Embedded Direct Indicator|0||PROD_REFERENCE.WARRANTY_PRODUCT_TO_INSURANCE|Streamline
+701|Offer Start Date|0||PROD_REFERENCE.WARRANTY_PRODUCT_TO_INSURANCE|Streamline
+702|Offer End Date|0||PROD_REFERENCE.WARRANTY_PRODUCT_TO_INSURANCE|Streamline
+703|Warranty Policy No|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION_ORD_ITEM|Streamline
+704|Warranty Transaction Id|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION_ORD_ITEM|Streamline
+705|Order ID|Number of customer orders (Gross Demand Pre Credit level)||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION_ORD_ITEM|Streamline
+706|Line Item Id|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION_ORD_ITEM|Streamline
+707|Item Order Date|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION_ORD_ITEM|Streamline
+708|Warranty Policy No|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION|Streamline
+709|Warranty Transaction Id|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION|Streamline
+710|Warranty Transaction Type Id|0||PROD_CUSTOMER_ACCOUNT.WARRANTY_TRANSACTION|Streamline
+711|Shopping Cart Event Amout|0||PROD_SPEEDTRAP.SHOPPING_CART_EVENT|SPEEDTRAP
+712|Shopping Cart Event Type Code|0||PROD_SPEEDTRAP.SHOPPING_CART_EVENT|SPEEDTRAP
+713|Page View Sequence No.|0||PROD_SPEEDTRAP.SHOPPING_CART_EVENT|SPEEDTRAP
+714|Data Piece Id|0||PROD_ENQUIRY.ENQUIRY_CAPTURED_DATA_PIECE|APS
+715|ID|0||N/A|ATG
+716|TITLE|0||N/A|ATG
+717|DESCRIPTION|0||N/A|ATG
+718|RECOMMEND|0||N/A|ATG
+719|CATEGORY|0||N/A|ATG
+720|BRAND|0||N/A|ATG
+721|PRICE|0||N/A|ATG
+722|EXPIRATION_DATE|0||N/A|ATG
+723|LINK|0||N/A|ATG
+724|IMAGE_LINK|0||N/A|ATG
+725|ATGPRODUCTID|0||N/A|ATG
+726|SDGPRODUCTID|0||N/A|ATG
+727|CATNO|0||N/A|ATG
+728|ENDECACATEGORIES|0||N/A|ATG
+729|ALTENDECACATPATHS|0||N/A|ATG
+730|TAXONOMYID|0||N/A|ATG
+731|NOWPRICETEXT|0||N/A|ATG
+732|MINIMUMWEEKLYPRICE|0||N/A|ATG
+733|MINIMUMWEEKLYPRICETEXT|0||N/A|ATG
+734|ZONEDESCRIPTION|0||N/A|ATG
+735|COLOURS|0||N/A|ATG
+736|RANGEID|0||N/A|ATG
+737|ASSOCIATEDPRODUCTS|0||N/A|ATG
+738|ZONEID|0||N/A|ATG
+739|ZONE_ID1|0||N/A|ATG
+740|ZONE_ID2|0||N/A|ATG
+741|ZONE_ID3|0||N/A|ATG
+742|ZONE_ID4|0||N/A|ATG
+743|ZONE_ID5|0||N/A|ATG
+744|ZONE_ID6|0||N/A|ATG
+745|ZONE_ID7|0||N/A|ATG
+746|ZONE_ID8|0||N/A|ATG
+747|ZONE_ID9|0||N/A|ATG
+748|ZONE_ID10|0||N/A|ATG

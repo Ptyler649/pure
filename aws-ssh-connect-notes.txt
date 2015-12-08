@@ -1,0 +1,6 @@
+1.) chmod 600 ptyler649.pem 
+2.) ssh -v -i ptyler649.pem ubuntu@54.201.181.145
+3.) exit logs you out once you are into the machine
+4.) scp -i ptyler649.pem ubuntu@54.201.181.145:~/trans.tar trans.tar
+5.) scp -i ptyler649.pem trans.tar ubuntu@54.201.181.145:~/.
+

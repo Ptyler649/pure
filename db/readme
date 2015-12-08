@@ -1,0 +1,2 @@
+ sudo sqlite3 test.db 'select count(*) from glossary;' > glossaryrowcount.txt
+

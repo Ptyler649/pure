@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Header -->
+<head>
+    <link href="mytest.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript'>
+    if (screen.width <= 699) {
+      document.location = "mytest3.html";
+    };
+    </script>
+    <script type='text/javascript' src='newajax.js'></script>
+</head>
+
+
+
+<!-- Body -->
+<body>
+ 
+<div id="header">
+  <img src="master.jpeg" alt="master dictionary">
+</div>
+
+<div id="main-wrap">
+
+  <div id="sidebar">
+  <div id="vertmenu"> 
+    <ul>
+      <li><a href="#" tabindex="1">Home</a></li>
+      <li><a href="#" tabindex="2">Domains</a>
+        <ul>
+          <li><a href="#" tabindex="21">Product</a></li>
+          <li><a href="#" tabindex="22">Customer</a></li>
+          <li><a href="#" tabindex="22">Sales</a></li>
+          <li><a href="#" tabindex="22">Sales Order</a></li>
+          <li><a href="#" tabindex="22">e-Commerce</a></li>
+          <li><a href="#" tabindex="22">Account</a></li>
+        </ul> 
+      </li>
+      <li><a href="#" tabindex="8">Links</a></li>
+      <li><a href="#" tabindex="9">About Us</a></li>
+    </ul>
+  </div>
+  </div>
+
+<div id="content-wrap">
+  <a href="http://northmount.org/mytest2.html" style="text-decoration: none">All Items  ...</a>
+
+  <input type="text" id="txt" value="Find an item..." onfocus="if(this.value=='Find an item...') this.value='';" onkeypress="if(event.keyCode==13){handleit();return false;}"/>
+
+  <p> </p>
+
+  <table id="customers">
+
+    <!--
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Definition</th>
+      <th>Notes</th>
+      <th>Examples</th>
+      <th>Relationships</th>
+    </tr> 
+    -->
+        <script>window.SDGMakeRequest();</script>
+        <div id='ResponseDiv'></div>                  
+  </table>
+
+<!-- control next and previous button control -->
+
+<!-- Previous Button -->
+<input type="hidden" id="text" value = "1"/>
+<button type="button" onclick='SDGMakeRequestBack();' value='2'> < </button>
+
+<a id="startvar"></a>
+<a id="starthid">1 - 10</a>
+
+<!-- Next Button -->
+<button type="button" onclick='SDGMakeRequest();' value='1'> > </button>
+
+<!-- total record count -->
+<script>window.getrowcount();</script>
+<div id='ResponseDiv'></div> 
+<a id="glostotcount"> (500+)</a>
+
+
+</div>
+<div id="footer"></div>
+
+</body>
+<!-- Body end -->
+</html>

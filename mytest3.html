@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="mytest_mob.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='newajax_mob.js'></script>
+</head>
+
+
+
+<body>
+ <div id="main-wrap">
+
+<div id="content-wrap">
+
+  <input type="text" id="txt" style="font-size: 2em" value="Find an item..." onfocus="if(this.value=='Find an item...') this.value='';" onkeypress="if(event.keyCode==13){handleit();return false;}"/>
+
+  <p> </p>
+
+  <table id="customers">
+
+        <!--  <button onclick="MakeRequest();">Click me</button> -->
+        <script>window.SDGMakeRequest();</script>
+        <div id='ResponseDiv'></div>          
+        
+  </table>
+
+<!--
+<input type="hidden" id="text" value = "1"/>
+<button type="button" onclick='SDGMakeRequestBack();' value='2'> < </button>
+<a id="startvar"></a>
+<a id="starthid">1 - 10</a>
+<button type="button" onclick='SDGMakeRequest();' value='1'> > </button>
+-->
+
+</div>
+
+
+</body>
+</html>
+

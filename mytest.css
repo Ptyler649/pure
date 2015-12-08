@@ -1,0 +1,111 @@
+<style type="text/css">
+
+/* sizes */
+#main-wrap > div { min-height: 450px; }
+
+
+#header,
+#footer {
+    min-height: 40px;
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+}
+
+#content-wrap {
+    float: right;
+    width: 80%;
+}   
+
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#customers td, #customers th {
+    font-size: 1em;
+    border: 1px solid grey;
+    padding: 3px 7px 2px 7px;
+    color: black;
+}
+
+#customers th {
+    font-size: 0.7em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    //background-color: #A7C942;
+    color: grey;
+}
+
+
+
+
+
+#vertmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+#vertmenu h1 {
+display: block; 
+background-color:#FF9900;
+font-size: 90%; 
+padding: 3px 0 5px 3px;
+border: 1px solid #000000;
+color: #333333;
+margin: 0px;
+width:159px;
+}
+
+#vertmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#vertmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#vertmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 4px;
+text-decoration: none;
+color: #666666;
+width:160px;
+}
+#vertmenu ul li li a {
+font-size: 80%;
+display: block;
+padding: 3px 3px 3px 17px;
+text-decoration: none;
+color: #666666;
+width:160px;
+}
+
+
+#vertmenu ul li a:hover, #vertmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+
+
+
+
+</style>

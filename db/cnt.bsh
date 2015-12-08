@@ -1,0 +1,2 @@
+sqlite3 /var/www/northmount.org/db/test.db "select count(*) from glossary" > /var/www/northmount.org/db/gloscount.txt
+

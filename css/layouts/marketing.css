@@ -333,7 +333,12 @@ a.pure-button-primary {
         color: #efefef;
     }
 
-
+    /* Add link default for calendar archive */
+   .link {
+   	color:aqua;
+   	text-decoration: none; 
+   	background-color: none;
+    }
 
 
 }
